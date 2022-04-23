@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: white;
+  transition: background 250ms linear;
+  transition: color 250ms linear;
+}
+
+/* .nav *{
+  display: inline-block;
+  vertical-align: middle;
+}
+.changeColorSchema{
+  margin-left: 93%;
+} */
