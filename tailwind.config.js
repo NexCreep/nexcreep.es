@@ -10,27 +10,29 @@ module.exports = {
       lg: '976px',
       xl: '1440px',
     },
-    colors: {
-      red: colors.rose,
-      pink: colors.fuchsia,
-      turq: '#40e0d0'
-    },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
     extend: {
+      colors: {
+        'turq': '#40e0d0'
+      },
       spacing: {
         '128': '32rem',
         '144': '36rem',
       },
       borderRadius: {
         '4xl': '2rem',
+      },
+      padding: {
+        '16': '64px'
       }
     },
     backgroundColor:{
       black: '#323232',
-      white: '#fff'
+      white: '#fff',
+      turq: '#40e0d0'
     }
   },
   variants: {

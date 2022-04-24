@@ -1,8 +1,15 @@
+import cookie from 'js-cookie'
+
 const schemaClass = "dark";
 var DOM = document.documentElement; 
 
+const changeSchemaCookie = (set) =>{
+    cookie.set("color-schema-dark", set)
+}
+
 const addDomClass = (className) => {
     DOM.classList.add(className)
+    changeSchemaCookie(true)
     document.getElementById('change-color-schema').innerHTML = `
     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 
@@ -12,6 +19,7 @@ const addDomClass = (className) => {
 }
 const remDomClass = (className) => {
     DOM.classList.remove(className)
+    changeSchemaCookie(false)
     document.getElementById('change-color-schema').innerHTML = `
     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 
@@ -20,22 +28,20 @@ const remDomClass = (className) => {
     `
 }
 
-const changeInner = element =>{
+const isSystemDark = localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage)) && window.matchMedia('(prefers-color-scheme: dark)'.matches)
 
-}
-
-
-if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage)) && window.matchMedia('(prefers-color-scheme: dark)'.matches))
-    addDomClass("dark");
-else {
+if ( isSystemDark && cookie.get("color-schema-dark") == "true" )
+    addDomClass("dark")
+else 
     remDomClass("dark");
-}
+
 
 var btnSchema = document.getElementById('change-color-schema')
 if (btnSchema != undefined) {
     btnSchema.addEventListener('click', () => {
         var date = new Date(Date.now())
         console.log(`[${date.toUTCString()}] Swaped color schema`);
+        
     
         if (DOM.classList.contains(schemaClass))
             remDomClass(schemaClass)
