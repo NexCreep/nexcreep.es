@@ -2,16 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: white;
-  transition: background 250ms linear;
-  transition: color 250ms linear;
+*{
+  transition: background-color 500ms ease !important;
+  transition: color 250ms ease;
 }
 
-/* .nav *{
-  display: inline-block;
-  vertical-align: middle;
+.tab{
+  transition: background-color 200ms ease !important;
+  border-collapse: collapse;
+  @apply border-solid;
+  @apply border;
+  @apply px-10;
+  @apply py-2;
+
+  @apply text-black dark:text-white;
 }
-.changeColorSchema{
-  margin-left: 93%;
-} */
+
+.active{
+  background-color: rgb(145, 145, 145) !important;
+}

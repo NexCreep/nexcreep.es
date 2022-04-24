@@ -15,6 +15,10 @@ module.exports = {
       serif: ['Merriweather', 'serif'],
     },
     extend: {
+      flexBasis: {
+        "1/3": "33.334%",
+        "2/3": "66.667%",
+      },
       colors: {
         'turq': '#40e0d0'
       },

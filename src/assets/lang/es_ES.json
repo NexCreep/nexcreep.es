@@ -1,0 +1,44 @@
+{
+    "lang": "es_ES",
+    "Navbar":{
+        "w01": "Estudios",
+        "w02": "Proyectos",
+        "w03": "Contacto",
+        "w04": "Idioma",
+        "p01": "Ver Estudios",
+        "p02": "Ver Proyectos",
+        "p03": "Ver Contacto",
+        "p04": "Switch to English UK"
+    },
+    "About":{
+        "t01":"NexCreep - Raúl López-Bravo de Castro",
+        "pa01": [
+            "Buenas visitante",
+            "Antes que nada, quiero agracederte de antemano la visita. Me ha llevado mucho tiempo y aprecio mucho cada visita.",
+            "Bueno voy presentarme, mi nombre es Raúl, alias NexCreep en internet, Y ME ENCANTE PROGRAMAR!!.",
+	        " ",
+	        "Estudios:",
+	        "· Actualmente estoy estudiando un grado superior de desarrollo multiplataforma, o su siglas DAM",
+	        "· Tambien soy titulado en SMR, es decir, sistemas microinformaticos y redes, el cual es un grado medio",
+            " ",
+            "Hobbies:",
+            "Como hobbies destaco:",
+            "· Astronimia, la ciencia qué investiga funcionamiento del universo, de donde venimos y a donde vamos",
+            "· Y por supuesto, la propia Programacion que estoy estudiando",
+            " ",
+            "Lenguajes y Frameworks"
+        ]
+    },
+    "Studies":{
+        "secciont": "¿Que estoy estudiando o he estudiado?",
+        "card1":{
+            "s01": "Grado Superior",
+            "t01": "Desarrollo de aplicaciones multiplataforma"
+        },
+        "card2":{
+            "s01": "Grado Medio",
+            "t01": "Sistemas Microinformáticos y redes"
+        }
+    }
+        
+}
