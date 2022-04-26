@@ -4,16 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.85" />
     <title>NexCreep - Raúl López</title>
   </head>
   <body class="bg-white text-dark dark:bg-black dark:text-white">
-  
     <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-black">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
         <a href="/" class="flex items-center">
           <img src="./assets/logo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
-          <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">NexCreep</span>
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">NexCreep</span>
         </a>
         <div class="flex md:order-2">
           <button type="button" class="text-black hover:bg-gray-800 
@@ -24,15 +23,36 @@
         </div>
       </div>
     </nav>
-  
-    <div class="main mx-8 p-[90px] flex flex-row" id="main">
-      <div class="tabs block flex-row text-center content-center">
-        <div class="tab basis-1/4 rounded-l-lg hover:bg-turq text-2xl md:text-l cursor-pointer active">About</div>
-        <div class="tab basis-1/4 hover:bg-turq text-2xl md:text-l cursor-pointer">Projects</div>
-        <div class="tab basis-2/4 rounded-r-lg hover:bg-turq text-2xl md:text-l cursor-pointer">Studies</div>
+    <div class="main mx-8 sm:my-8 sm:mx-0 p-[5%] sm:p-0" id="main">
+      <div class="tabs flex flex-row text-center content-center">
+        <div class="tab flex-1 w-64 rounded-l-lg hover:bg-turq text-2xl cursor-pointer active" data-tab-name="About" data-tab-id="w01">About</div>
+        <div class="tab flex-1 w-64 hover:bg-turq text-2xl cursor-pointer" data-tab-name="Projects" data-tab-id="w02">Projects</div>
+        <div class="tab flex-1 w-64 rounded-r-lg hover:bg-turq text-2xl cursor-pointer" data-tab-name="Studies" data-tab-id="w03" >Studies</div>
       </div>
-      <div class="block" id="container"></div>
+      <div class="container my-6 sm:p-3 text-lg" id="container"></div>
       
+      <!-- <div class="shadow-lg p-8 hover:bg-turq dark:text-white dark:shadow-lg rounded-lg sm:mx-2">
+        <div class="text-2xl">{Titulo}</div>
+        <div class="text-xl mt-2">{Description}</div>
+        <div class="mt-5">
+          <div class="inline-block align-middle text-[#f00]">
+            <svg class="w-6 h-6 m-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z">
+              </path>
+            </svg>
+          </div>
+          <div class="inline-block align-middle text-lg">{Language}</div>
+          <div class="inline-block align-middle ml-6 sm:ml-2 text-[#f00] dark:text-[#ff0]">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 
+                    1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 
+                    1 0 00.951-.69l1.519-4.674z"></path>
+            </svg>
+          </div>
+          <div class="inline-block align-middle text-lg">{Starts}</div>
+        </div>
+      </div> -->
     </div>
     <script src="./js/core.bundle.js"></script>
   </body>

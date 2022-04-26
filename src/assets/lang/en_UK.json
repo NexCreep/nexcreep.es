@@ -1,32 +1,25 @@
 {
     "lang": "en_UK",
-    "Navbar":{
-        "w01": "Studies",
+    "Tabs":{
+        "w01": "About",
         "w02": "Projects",
-        "w03": "Contact",
-        "w04": "Lang",
-        "p01": "Watch Studies",
-        "p02": "Watch Projects",
-        "p03": "Watch Contact",
-        "p04": "Cambiar a Español"
+        "w03": "Studies"
     },
     "About":{
-        "t01": ["NexCreep", "Raul Lopez-Bravo de Castro"],
+        "t01": "Who am I?",
         "pa01": [
             "Dear visitor,",
             "First of all, I want to thank you beforehand the visit to my personal portfolio. It take me a lot of time & I really appreciate so much your visit.",
             "Well i'm going to start introducing myself. My name is Raúl, alias NexCreep on Internet, AND I LOVE CODING!.",
-	        " ",
+	        "</br>",
 	        "Studies:",
-	        "· Actually I'm studing multiplatform application developing",
-	        "· As my certification, I'm graduated in IT systems & networks, at moment",
-            " ",
+	        "- Actually I'm studing multiplatform application developing",
+	        "- As my certification, I'm graduated in IT systems & networks, at moment",
+            "</br>",
             "Hobbies:",
             "As hobbies I highlight:",
-            "· Astronomy, the science that investigates the secrets of universe, and how affect to us.",
-            "· And of course, the Programming that I'm studing",
-            " ",
-            "Languages & Frameworks"
+            "- Astronomy, the science that investigates the secrets of universe, and how affect to us.",
+            "- And of course, the Programming that I'm studing"
         ]
     },
     "Studies":{

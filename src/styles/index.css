@@ -14,10 +14,20 @@
   @apply border;
   @apply px-10;
   @apply py-2;
+  @apply sm:text-lg;
+  @apply sm:w-full;
 
   @apply text-black dark:text-white;
 }
 
 .active{
   background-color: rgb(145, 145, 145) !important;
+}
+
+.fadeOut{ animation: fade 100ms ease-in forwards; }
+.fadeIn{ animation: fade 100ms ease-in reverse forwards; }
+
+@keyframes fade {
+  from { opacity: 1; }
+  to { opacity: 0; }
 }

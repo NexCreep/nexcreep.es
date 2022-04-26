@@ -16,17 +16,15 @@
             "Buenas visitante",
             "Antes que nada, quiero agracederte de antemano la visita. Me ha llevado mucho tiempo y aprecio mucho cada visita.",
             "Bueno voy presentarme, mi nombre es Raúl, alias NexCreep en internet, Y ME ENCANTE PROGRAMAR!!.",
-	        " ",
+	        "</br>",
 	        "Estudios:",
-	        "· Actualmente estoy estudiando un grado superior de desarrollo multiplataforma, o su siglas DAM",
-	        "· Tambien soy titulado en SMR, es decir, sistemas microinformaticos y redes, el cual es un grado medio",
-            " ",
+	        "- Actualmente estoy estudiando un grado superior de desarrollo multiplataforma, o su siglas DAM",
+	        "- Tambien soy titulado en SMR, es decir, sistemas microinformaticos y redes, el cual es un grado medio",
+            "</br>",
             "Hobbies:",
             "Como hobbies destaco:",
-            "· Astronimia, la ciencia qué investiga funcionamiento del universo, de donde venimos y a donde vamos",
-            "· Y por supuesto, la propia Programacion que estoy estudiando",
-            " ",
-            "Lenguajes y Frameworks"
+            "- Astronimia, la ciencia qué investiga funcionamiento del universo, de donde venimos y a donde vamos",
+            "- Y por supuesto, la propia Programacion que estoy estudiando"
         ]
     },
     "Studies":{

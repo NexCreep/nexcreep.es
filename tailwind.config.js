@@ -5,10 +5,11 @@ module.exports = {
   darkMode: "class",
   theme: {
     screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
+      'sm': {'max': '767px'},
+      'md': {'min': '768px', 'max': '1023px'},
+      'lg': {'min': '1024px', 'max': '1279px'},
+      'xl': {'min': '1280px', 'max': '1535px'},
+      '2xl': {'min': '1536px'}
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
@@ -16,8 +17,8 @@ module.exports = {
     },
     extend: {
       flexBasis: {
-        "1/3": "33.334%",
-        "2/3": "66.667%",
+        "1/6": "16.667%",
+        "3/6": "49,999%",
       },
       colors: {
         'turq': '#40e0d0'
