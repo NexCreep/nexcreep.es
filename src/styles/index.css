@@ -31,3 +31,15 @@
   from { opacity: 1; }
   to { opacity: 0; }
 }
+
+
+.lang-circle-javascript{ fill: #EFD81D;}
+.lang-circle-kotlin{ fill: #A97BFF; }
+.lang-circle-python{ fill: #3572a5; }
+.lang-circle-bash{ fill: #89E051; }
+.lang-circle-html{ fill: #E34C26; }
+.lang-circle-java{ fill: #B07219; }
+.lang-circle-rust{ fill: #DEA584; }
+.lang-circle-css{ fill: #563D7C; }
+.lang-circle-cs{ fill: #178600; }
+.lang-circle-c{ fill: #555555; }
