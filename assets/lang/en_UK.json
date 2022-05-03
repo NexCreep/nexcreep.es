@@ -1,0 +1,37 @@
+{
+    "lang": "en_UK",
+    "langTo": "es",
+    "Tabs":{
+        "w01": "About",
+        "w02": "Projects",
+        "w03": "Studies"
+    },
+    "About":{
+        "t01": "Who am I?",
+        "pa01": [
+            "Dear visitor,",
+            "First of all, I want to thank you beforehand the visit to my personal portfolio. It take me a lot of time & I really appreciate so much your visit.",
+            "Well i'm going to start introducing myself. My name is Raúl, alias NexCreep on Internet, AND I LOVE CODING!.",
+	        "</br>",
+	        "Studies:",
+	        "- Actually I'm studing multiplatform application developing",
+	        "- As my certification, I'm graduated in IT systems & networks, at moment",
+            "</br>",
+            "Hobbies:",
+            "As hobbies I highlight:",
+            "- Astronomy, the science that investigates the secrets of universe, and how affect to us.",
+            "- And of course, the Programming that I'm studing"
+        ]
+    },
+    "Studies":{
+        "secciont": "What I'm studing? or, what I studied?",
+        "card1":{
+            "s01": "Certificate Higher Educacion",
+            "t01": "Multiplatform Application Developing"
+        },
+        "card2":{
+            "s01": "Vocational Education and Training",
+            "t01": "IT Systems & Networks"
+        }
+    }
+}
