@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-webpack-starter",
+  "name": "nexcreep.es",
   "version": "1.0.0",
   "description": "A modern Webpack 5, Tailwind CSS 3, and TypeScript Web Apps Starter Template",
   "private": true,
@@ -7,7 +7,9 @@
     "start": "webpack serve --mode=development --open",
     "build": "webpack --config webpack-prod.config.js",
     "serve": "python -m http.server --directory dist 5500",
-    "prod": "yarn build && yarn serve"
+    "prod": "yarn build && yarn serve",
+    "publish": "gh-pages -d dist",
+    "deploy": "yarn build && yarn run publish"
   },
   "keywords": [],
   "author": "NexCreep",
@@ -18,6 +20,7 @@
     "css-loader": "^6.7.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.5.0",
     "jquery": "^3.6.0",
     "mini-css-extract-plugin": "^2.6.0",

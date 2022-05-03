@@ -15,13 +15,22 @@ module.exports = {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
+    fontSize: {
+      'base': '1rem',
+      'lg': '1.125rem',
+      'xl': '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '2rem',
+      '6xl': '4rem'
+    },
     extend: {
       flexBasis: {
         "1/6": "16.667%",
         "3/6": "49,999%",
       },
       colors: {
-        'turq': '#40e0d0'
+        'turq': '#40e0d0',
+        'starColor': '#EFD81D'
       },
       spacing: {
         '128': '32rem',

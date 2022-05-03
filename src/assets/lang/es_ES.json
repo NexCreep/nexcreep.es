@@ -1,17 +1,13 @@
 {
     "lang": "es_ES",
-    "Navbar":{
-        "w01": "Estudios",
+    "langTo": "en",
+    "Tabs":{
+        "w01": "Sobre mi",
         "w02": "Proyectos",
-        "w03": "Contacto",
-        "w04": "Idioma",
-        "p01": "Ver Estudios",
-        "p02": "Ver Proyectos",
-        "p03": "Ver Contacto",
-        "p04": "Switch to English UK"
+        "w03": "Estudios"
     },
     "About":{
-        "t01":"NexCreep - Raúl López-Bravo de Castro",
+        "t01":"¿Quien soy yo?",
         "pa01": [
             "Buenas visitante",
             "Antes que nada, quiero agracederte de antemano la visita. Me ha llevado mucho tiempo y aprecio mucho cada visita.",

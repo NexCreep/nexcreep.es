@@ -30,7 +30,8 @@ module.exports = {
         { from: "src/assets/favicon.ico", to: "assets/favicon.ico" },
         { from: "src/assets/logo.png", to: "assets/logo.png" },
         { from: "src/assets/lang/en_UK.json", to: "assets/lang/en_UK.json" },
-        { from: "src/assets/lang/es_ES.json", to: "assets/lang/es_ES.json" }
+        { from: "src/assets/lang/es_ES.json", to: "assets/lang/es_ES.json" },
+        { from: "src/domain-config/CNAME" }
     ],
     })
   ],
