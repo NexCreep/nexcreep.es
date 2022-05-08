@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.85" />
     <title>NexCreep - Raúl López</title>
   </head>
-  <body class="bg-white text-dark dark:bg-black dark:text-white">
+  <body class="bg-white text-dark dark:bg-black dark:text-white" id="body">
     <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-black">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
         <a href="/" class="flex items-center">
@@ -22,68 +22,30 @@
         </a>
         <div class="flex md:order-2">
           <button type="button" class="text-black hover:bg-gray-800 
-          focus:outline-none font-bold 
-          rounded-lg text-md px-5 py-2.5 text-center mr-3 md:mr-0 dark:text-white dark:bg-blue-600 
-          dark:hover:bg-gray-300 shadow-lg shadow-turq-500/50 " id="change-lang">
+              focus:outline-none font-bold 
+              rounded-lg text-md px-5 py-2.5 text-center mr-3 md:mr-0 dark:text-white dark:bg-blue-600 
+              dark:hover:bg-gray-300 shadow-lg shadow-turq-500/50 " id="change-lang">
           </button>
           <button type="button" class="text-black hover:bg-gray-800 
-          focus:outline-none font-medium 
-          rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:text-white dark:bg-blue-600 
-          dark:hover:bg-gray-300 shadow-lg shadow-turq-500/50 " id="change-color-schema">
+              focus:outline-none font-medium 
+              rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:text-white dark:bg-blue-600 
+              dark:hover:bg-gray-300 shadow-lg shadow-turq-500/50 " id="change-color-schema">
           </button>
         </div>
       </div>
     </nav>
     <div class="main mx-8 sm:my-8 sm:mx-0 p-[5%] sm:p-0" id="main">
       <div class="tabs flex flex-row text-center content-center">
-        <div class="tab flex-1 w-64 rounded-l-lg hover:bg-turq text-2xl cursor-pointer active" data-tab-name="About" data-tab-id="w01">About</div>
-        <div class="tab flex-1 w-64 hover:bg-turq text-2xl cursor-pointer" data-tab-name="Projects" data-tab-id="w02">Projects</div>
-        <div class="tab flex-1 w-64 rounded-r-lg hover:bg-turq text-2xl cursor-pointer" data-tab-name="Studies" data-tab-id="w03" >Studies</div>
+        <div class="tab flex-1 w-64 rounded-l-lg hover:bg-turq text-2xl cursor-pointer active" data-tab-name="About"
+          data-tab-id="w01">About</div>
+        <div class="tab flex-1 w-64 hover:bg-turq text-2xl cursor-pointer" data-tab-name="Projects" data-tab-id="w02">
+          Projects</div>
+        <div class="tab flex-1 w-64 rounded-r-lg hover:bg-turq text-2xl cursor-pointer" data-tab-name="Studies"
+          data-tab-id="w03">Studies</div>
       </div>
       <div class="container my-6 sm:p-3 text-lg" id="container"></div>
-      
-
-      <!-- <div class="flex flex-wrap h-[600px] sm:h-0">
-        <div class="flex-1 sm:basis-0 align-middle justify-center h-[300px] sm:hidden">
-            <svg class="fill-black dark:fill-white w-[100%] h-[100%]" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64">
-                <path d="M32 6C17.641 6 6 17.641 6 32c0 12.277 8.512 22.56 19.955 25.286-.592-.141-1.179-.299-1.755-.479V50.85c0 
-                0-.975.325-2.275.325-3.637 0-5.148-3.245-5.525-4.875-.229-.993-.827-1.934-1.469-2.509-.767-.684-1.126-.686-1.131-.92-.01-.491.658-.471.975-.471 1.625 
-                0 2.857 1.729 3.429 2.623 1.417 2.207 2.938 2.577 3.721 2.577.975 0 1.817-.146 2.397-.426.268-1.888 1.108-3.57 2.478-4.774-6.097-1.219-10.4-4.716-10.4-10.4 
-                0-2.928 1.175-5.619 3.133-7.792C19.333 23.641 19 22.494 19 20.625c0-1.235.086-2.751.65-4.225 0 0 3.708.026 7.205 3.338C28.469 19.268 30.196 19 32 
-                19s3.531.268 5.145.738c3.497-3.312 7.205-3.338 7.205-3.338.567 1.474.65 2.99.65 4.225 0 2.015-.268 3.19-.432 3.697C46.466 26.475 47.6 29.124 47.6 32c0 
-                5.684-4.303 9.181-10.4 10.4 1.628 1.43 2.6 3.513 2.6 5.85v8.557c-.576.181-1.162.338-1.755.479C49.488 54.56 58 44.277 58 32 58 17.641 46.359 6 32 6zM33.813 
-                57.93C33.214 57.972 32.61 58 32 58 32.61 58 33.213 57.971 33.813 57.93zM37.786 57.346c-1.164.265-2.357.451-3.575.554C35.429 57.797 36.622 57.61 
-                37.786 57.346zM32 58c-.61 0-1.214-.028-1.813-.07C30.787 57.971 31.39 58 32 58zM29.788 57.9c-1.217-.103-2.411-.289-3.574-.554C27.378 57.61 28.571 57.797 29.788 57.9z"/>
-            </svg>
-        </div>
-        <div class="flex-1 sm:basis-0 sm:w-full align-middle h-[300px]">
-          <a href="${html_url}">
-            <div class="shadow-lg p-8 mb-5 hover:bg-turq dark:text-white dark:shadow-lg rounded-lg sm:mx-2">
-              <div class="text-2xl">{full_name}</div>
-              <div class="text-xl mt-2">{description}</div>
-              <div class="mt-5">
-                <div class="inline-block align-middle dark:text-turq">
-                  <svg class="w-6 h-6">
-                    <circle cx="50%" cy="50%" r="8"
-                      class="lang-circle lang-circle-${!specialLangName.includes(repo.language.toLowerCase()) ? repo.language.toLowerCase() : "
-                      cs"}" />
-                  </svg>
-                </div>
-                <div class="inline-block align-middle text-lg">{language}</div>
-                <div class="inline-block align-middle ml-6 sm:ml-2 text-[#f00] dark:text-[#ff0]">
-                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 
-                                1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 
-                                1 0 00.951-.69l1.519-4.674z"></path>
-                  </svg>
-                </div>
-                <div class="inline-block align-middle text-lg">{stargazers_count}</div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div> -->
-      
+    </div>
+  
     <script src="./js/core.bundle.js"></script>
   </body>
 </html>
