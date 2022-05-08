@@ -143,4 +143,12 @@ async function main() {
         updateInner(active.getAttribute("data-tab-id"))
 
 }
-main()
+
+$(document).ready(async () => {
+    await main();
+    setTimeout(() => {
+        var body = $("#body")
+        body.css("display", "block")
+        setTimeout(() => body.css("opacity", 1), 100)
+    }, 500)
+})

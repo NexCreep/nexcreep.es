@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  transition: background-color 500ms ease !important;
-  transition: color 250ms ease;
+
+#body{
+  @apply transition !important;
+  @apply duration-500	!important;
+  display: none;
+  opacity: 0;
 }
 
 .tab{

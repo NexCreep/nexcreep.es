@@ -4,7 +4,7 @@ const schemaClass = "dark";
 var DOM = document.documentElement; 
 
 const changeSchemaCookie = (set) =>{
-    cookie.set("color-schema-dark", set)
+    cookie.set("color-schema-dark", set, {expires: 365})
 }
 
 const addDomClass = (className) => {
