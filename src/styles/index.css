@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-#body{
+body{
   @apply transition !important;
   @apply duration-500	!important;
   display: none;
@@ -26,9 +26,6 @@
 .active{
   background-color: rgb(145, 145, 145) !important;
 }
-
-.fadeOut{ animation: fade 100ms ease-in forwards; }
-.fadeIn{ animation: fade 100ms ease-in reverse forwards; }
 
 @keyframes fade {
   from { opacity: 1; }
