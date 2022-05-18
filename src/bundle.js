@@ -12,4 +12,4 @@ window.$ = require('jquery')
 // JS modules
 require('./core/main.js');
 require('./core/colorSchema.js');
-
+require('./core/ga')
