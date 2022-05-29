@@ -21,7 +21,7 @@ function renderProject() {
     projectHTML = `
 
 <div class="flex flex-wrap h-[600px] sm:h-0">
-    <div class="flex-1 sm:basis-0 align-middle justify-center h-[300px] sm:hidden">
+    <div class="flex-1 sm:basis-0 align-middle justify-center h-[300px] md:hidden">
         <svg class="fill-black dark:fill-white w-[100%] h-[100%]" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64">
             <path d="M32 6C17.641 6 6 17.641 6 32c0 12.277 8.512 22.56 19.955 25.286-.592-.141-1.179-.299-1.755-.479V50.85c0 
             0-.975.325-2.275.325-3.637 0-5.148-3.245-5.525-4.875-.229-.993-.827-1.934-1.469-2.509-.767-.684-1.126-.686-1.131-.92-.01-.491.658-.471.975-.471 1.625 
@@ -32,6 +32,7 @@ function renderProject() {
             57.93C33.214 57.972 32.61 58 32 58 32.61 58 33.213 57.971 33.813 57.93zM37.786 57.346c-1.164.265-2.357.451-3.575.554C35.429 57.797 36.622 57.61 
             37.786 57.346zM32 58c-.61 0-1.214-.028-1.813-.07C30.787 57.971 31.39 58 32 58zM29.788 57.9c-1.217-.103-2.411-.289-3.574-.554C27.378 57.61 28.571 57.797 29.788 57.9z"/>
         </svg>
+        <div class="text-3xl text-center py-8 font-bold"><a class="hover:drop-shadow-lg hover:text-turq" href="https://github.com/NexCreep" target="_self">github/NexCreep</a></div>
     </div>
     <div class="flex-1 sm:basis-0 sm:w-full align-middle h-[300px]">
         ${reposHTML}
@@ -51,10 +52,15 @@ async function updateInner( inner ){
 
     switch (inner) {
         case "w01":
-            container.html(`<p class="text-3xl font-semibold">${data.About.t01}</p>`)
+            container.html(
+                `<div class="grid grid-cols-2 md:grid-cols-1"><div id="aboutText"></div><div class="md:hidden about-img" id="aboutImg"><img src="./assets/coding.gif"/></div></div>`
+            )
+            var aboutText = $("#aboutText")
+            aboutText.append(`<p class="text-3xl font-semibold">${data.About.t01}</p>`)
+            
             data.About.pa01.map( line => {
-                container.append(
-                    `<p class="line text-xl sm:text-base">${line}</p>`
+                aboutText.append(
+                    `   <p class="line text-xl sm:text-base">${line}</p>`
                 )
             }) 
             break;

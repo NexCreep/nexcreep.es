@@ -3,11 +3,23 @@
 @tailwind utilities;
 
 
+html{
+  display: block !important;
+}
 body{
   @apply transition !important;
   @apply duration-500	!important;
   display: none;
   opacity: 0;
+}
+
+.about-img img{
+  @apply h-[500px] w-[500px];
+  @apply bg-white p-8 rounded-md;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .tab{

@@ -2,9 +2,9 @@
     "lang": "en_UK",
     "langTo": "es",
     "Tabs":{
-        "w01": "About",
+        "w01": "ME",
         "w02": "Projects",
-        "w03": "Studies"
+        "w03": "Roadmap"
     },
     "About":{
         "t01": "Who am I?",
@@ -23,7 +23,7 @@
             "- And of course, the Programming that I'm studing"
         ]
     },
-    "Studies":{
+    "Roadmap":{
         "secciont": "What I'm studing? or, what I studied?",
         "card1":{
             "s01": "Certificate Higher Educacion",

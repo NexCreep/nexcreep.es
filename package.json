@@ -4,8 +4,9 @@
   "description": "A modern Webpack 5, Tailwind CSS 3, and TypeScript Web Apps Starter Template",
   "private": true,
   "scripts": {
+    "license": "yarn generate-license-file --input ./package.json --output ./src/assets/third-party-licenses.txt --overwrite",
     "start": "webpack serve --mode=development --open",
-    "build": "webpack --config webpack-prod.config.js",
+    "build": "yarn run license && webpack --config webpack-prod.config.js",
     "serve": "python -m http.server --directory dist 5500",
     "prod": "yarn build && yarn serve",
     "publish": "gh-pages -d dist",
@@ -20,6 +21,7 @@
     "css-loader": "^6.7.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^6.2.0",
+    "generate-license-file": "^1.3.0",
     "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.5.0",
     "jquery": "^3.6.0",
