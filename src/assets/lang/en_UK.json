@@ -23,15 +23,27 @@
             "- And of course, the Programming that I'm studing"
         ]
     },
-    "Roadmap":{
-        "secciont": "What I'm studing? or, what I studied?",
-        "card1":{
-            "s01": "Certificate Higher Educacion",
-            "t01": "Multiplatform Application Developing"
+    "Roadmap":[
+        {
+            "type": "studies",
+            "title": " Development of Applications (Higher Educacion)",
+            "start_date": "September 2021",
+            "final_date": "Currently",
+            "description": ""
         },
-        "card2":{
-            "s01": "Vocational Education and Training",
-            "t01": "IT Systems & Networks"
+        {
+            "type": "studies",
+            "title": "IT System & Networks (Vocational Education and Training)",
+            "start_date": "September 2019",
+            "final_date": "June 2021",
+            "description": ""
+        },
+        {
+            "type": "studies",
+            "title": "Compulsory Secondary Education",
+            "start_date": "September 2014",
+            "final_date": "June 2019",
+            "description": ""
         }
-    }
+    ]
 }

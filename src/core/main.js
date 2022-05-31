@@ -1,6 +1,6 @@
-import { event } from 'jquery';
 import ghDelivery from './Helpers/githubDelivery'
 import langHandler from './Helpers/langHandler';
+import renderRoadmap from './Helpers/roadmap';
 
 
 //Lang data
@@ -20,7 +20,7 @@ var reposHTML = `
 function renderProject() {
     projectHTML = `
 
-<div class="flex flex-wrap h-[600px] sm:h-0">
+<div class="flex flex-wrap h-[600px] sm:h-[800px]">
     <div class="flex-1 sm:basis-0 align-middle justify-center h-[300px] md:hidden">
         <svg class="fill-black dark:fill-white w-[100%] h-[100%]" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64">
             <path d="M32 6C17.641 6 6 17.641 6 32c0 12.277 8.512 22.56 19.955 25.286-.592-.141-1.179-.299-1.755-.479V50.85c0 
@@ -87,14 +87,13 @@ async function updateInner( inner ){
             break;
 
         case "w03":
-            container.html(
-                `
-                <div class = "p-20">
-                    <div class='text-6xl font-semibold text-center'>🚧 Nothing to see here 🚧</div>
-                    <div class='text-2xl font-semibold text-center pt-5'>This tab is under construnction</div>
-                </div>
-                `
-            );
+            var elements = renderRoadmap(data.Roadmap)
+            container.html(`<ol class="relative border-l border-gray-200 dark:border-gray-700 ml-80 md:ml-0" id="roadmapList"></ol>`);
+            var roadmapList = $("#roadmapList")
+            elements.map( element => {
+                roadmapList.append(element)
+            })
+
             break;
 
         default:

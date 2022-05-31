@@ -27,7 +27,6 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: "src/index.html", to: "index.html" },
-        { from: "src/third.html" },
         { from: "src/assets/favicon.ico", to: "assets/favicon.ico" },
         { from: "src/assets/logo.png", to: "assets/logo.png" },
         { from: "src/assets/coding.gif", to: "assets/coding.gif" },

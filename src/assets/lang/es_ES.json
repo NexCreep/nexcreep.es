@@ -23,16 +23,28 @@
             "- Y por supuesto, la propia Programacion que estoy estudiando"
         ]
     },
-    "Roadmap":{
-        "secciont": "¿Que estoy estudiando o he estudiado?",
-        "card1":{
-            "s01": "Grado Superior",
-            "t01": "Desarrollo de aplicaciones multiplataforma"
+    "Roadmap":[
+        {
+            "type": "studies",
+            "title": "Desarrollo de Aplicaciones Multiplataforma (Grado Superior)",
+            "start_date": "Septiembre 2021",
+            "final_date": "Actualmente",
+            "description": ""
         },
-        "card2":{
-            "s01": "Grado Medio",
-            "t01": "Sistemas Microinformáticos y redes"
+        {
+            "type": "studies",
+            "title": "Sistemas Microinformáticos y Redes (Grado Medio)",
+            "start_date": "Septiembre 2019",
+            "final_date": "Junio 2021",
+            "description": ""
+        },
+        {
+            "type": "studies",
+            "title": "Educación Secundaria Obligatoria",
+            "start_date": "Septiembre 2014",
+            "final_date": "Junio 2019",
+            "description": ""
         }
-    }
+    ]
         
 }
