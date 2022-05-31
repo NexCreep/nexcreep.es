@@ -2,16 +2,16 @@
     "lang": "es_ES",
     "langTo": "en",
     "Tabs":{
-        "w01": "Sobre mi",
+        "w01": "YO",
         "w02": "Proyectos",
-        "w03": "Estudios"
+        "w03": "Trayectoria"
     },
     "About":{
         "t01":"¿Quien soy yo?",
         "pa01": [
             "Buenas visitante",
             "Antes que nada, quiero agracederte de antemano la visita. Me ha llevado mucho tiempo y aprecio mucho cada visita.",
-            "Bueno voy presentarme, mi nombre es Raúl, alias NexCreep en internet, Y ME ENCANTE PROGRAMAR!!.",
+            "Bueno voy presentarme, mi nombre es Raúl, alias NexCreep, Y ME ENCANTA PROGRAMAR!!",
 	        "</br>",
 	        "Estudios:",
 	        "- Actualmente estoy estudiando un grado superior de desarrollo multiplataforma, o su siglas DAM",
@@ -23,16 +23,28 @@
             "- Y por supuesto, la propia Programacion que estoy estudiando"
         ]
     },
-    "Studies":{
-        "secciont": "¿Que estoy estudiando o he estudiado?",
-        "card1":{
-            "s01": "Grado Superior",
-            "t01": "Desarrollo de aplicaciones multiplataforma"
+    "Roadmap":[
+        {
+            "type": "studies",
+            "title": "Desarrollo de Aplicaciones Multiplataforma (Grado Superior)",
+            "start_date": "Septiembre 2021",
+            "final_date": "Actualmente",
+            "description": ""
         },
-        "card2":{
-            "s01": "Grado Medio",
-            "t01": "Sistemas Microinformáticos y redes"
+        {
+            "type": "studies",
+            "title": "Sistemas Microinformáticos y Redes (Grado Medio)",
+            "start_date": "Septiembre 2019",
+            "final_date": "Junio 2021",
+            "description": ""
+        },
+        {
+            "type": "studies",
+            "title": "Educación Secundaria Obligatoria",
+            "start_date": "Septiembre 2014",
+            "final_date": "Junio 2019",
+            "description": ""
         }
-    }
+    ]
         
 }

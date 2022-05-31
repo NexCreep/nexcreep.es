@@ -1,52 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
-    <meta name="author" content="NexCreep"/>
-    <meta name="copyright" content="NexCreep"/>
-    <meta name="robots" content="index,follow"/>
-    <meta name="description" content="Porfolio of Raul Lopez-Bravo, alias NexCreep. Here you can find what I study, what I´m studing, or what I'm going to study; in a visual format."/>
-    <meta name="keywords" content="NexCreep, Raúl López-Bravo, Raúl, López, Protofilo, Raúl López, Developer, Dessarrollador, Tecnicom, IT, Informatica, Redes, Network"/>
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=0.85" />
-    <title>NexCreep - Raúl López</title>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQJLLTWT40"></script>
-  </head>
-  <body class="bg-white text-dark dark:bg-black dark:text-white" id="body">
-    <nav class="border-gray-200 px-2 sm:px-4 py-2.5 rounded">
-      <div class="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="/" class="flex items-center">
-          <img src="./assets/logo.png" class="mr-3 h-9" alt="Flowbite Logo">
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">NexCreep</span>
-        </a>
-        <div class="flex md:order-2">
-          <button type="button" class="text-black hover:bg-gray-800 
+<html lang="en" style="display: none;">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+  <meta name="author" content="NexCreep" />
+  <meta name="copyright" content="NexCreep" />
+  <meta name="robots" content="index,follow" />
+  <meta name="description"
+    content="Porfolio of Raul Lopez-Bravo, alias NexCreep. Here you can find what I study, what I`m studing, or what I'm going to study; in a visual format." />
+  <meta name="keywords"
+    content="NexCreep, Raúl López-Bravo, Raúl, López, Protofilo, Raúl López, Developer, Dessarrollador, Tecnicom, IT, Informatica, Redes, Network" />
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=0.85" />
+  <title>NexCreep - Raúl López</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQJLLTWT40"></script>
+</head>
+
+<body class="bg-white text-dark dark:bg-black dark:text-white" id="body">
+  <nav class="border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+      <a href="/" class="flex items-center">
+        <img src="./assets/logo.png" class="mr-3 h-9" alt="NexCreep">
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">NexCreep</span>
+      </a>
+      <div class="flex md:order-2">
+        <button type="button" class="text-black hover:bg-gray-800 
               focus:outline-none font-bold 
               rounded-lg text-md px-5 py-2.5 text-center mr-3 md:mr-0 dark:text-white dark:bg-blue-600 
               dark:hover:bg-gray-300 shadow-lg shadow-turq-500/50 " id="change-lang">
-          </button>
-          <button type="button" class="text-black hover:bg-gray-800 
+        </button>
+        <button type="button" class="text-black hover:bg-gray-800 
               focus:outline-none font-medium 
               rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:text-white dark:bg-blue-600 
               dark:hover:bg-gray-300 shadow-lg shadow-turq-500/50 " id="change-color-schema">
-          </button>
-        </div>
+        </button>
       </div>
-    </nav>
-    <div class="main mx-8 sm:my-8 sm:mx-0 p-[5%] sm:p-0" id="main">
-      <div class="tabs flex flex-row text-center content-center">
-        <div class="tab flex-1 w-64 rounded-l-lg hover:bg-turq text-2xl cursor-pointer active" data-tab-name="About"
-          data-tab-id="w01">About</div>
-        <div class="tab flex-1 w-64 hover:bg-turq text-2xl cursor-pointer" data-tab-name="Projects" data-tab-id="w02">
-          Projects</div>
-        <div class="tab flex-1 w-64 rounded-r-lg hover:bg-turq text-2xl cursor-pointer" data-tab-name="Studies"
-          data-tab-id="w03">Studies</div>
-      </div>
-      <div class="container my-6 sm:p-3 text-lg" id="container"></div>
     </div>
-  
-    <script src="./js/core.bundle.js"></script>
-    </body>
+  </nav>
+  <div class="main mx-8 sm:my-8 sm:mx-0 p-[5%] sm:p-0" id="main">
+    <div class="tabs flex flex-row text-center content-center">
+      <div class="tab flex-1 w-64 rounded-l-lg hover:bg-turq text-2xl cursor-pointer active" data-tab-name="About"
+        data-tab-id="w01">About</div>
+      <div class="tab flex-1 w-64 hover:bg-turq text-2xl cursor-pointer" data-tab-name="Projects" data-tab-id="w02">
+        Projects</div>
+      <div class="tab flex-1 w-64 rounded-r-lg hover:bg-turq text-2xl cursor-pointer" data-tab-name="Studies"
+        data-tab-id="w03">Studies</div>
+    </div>
+    <div class=" my-6 mx-20 md:mx-0 sm:p-3 text-lg items-center" id="container"></div>
+  </div>
+  <footer class=" flex items-center justify-between p-6 bg-white dark:bg-black sticky bottom-0">
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://github.com/NexCreep" target="_blank"
+        class="hover:underline">NexCreep (Raúl López)</a>.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+      <li>
+        <a href="">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="./third.html" class="mr-4 hover:underline sm:text-center md:mr-6">Third Party Licenses</a>
+      </li>
+
+    </ul>
+  </footer>
+
+
+
+  <script src="./js/core.bundle.js"></script>
+</body>
+
 </html>
