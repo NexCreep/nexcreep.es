@@ -2,6 +2,8 @@
 import "./styles/index.css";
 //Flowbyte JS dependency
 import "flowbite"
+//Font Awesome Js dependencyç
+import "@fortawesome/fontawesome-free"
 
 //Images
 //require('./assets/wallpaper.jpg')
